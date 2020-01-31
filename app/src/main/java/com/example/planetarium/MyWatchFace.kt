@@ -606,7 +606,7 @@ class MyWatchFace : CanvasWatchFaceService() {
                     var hourString:String = String.format("%02d", mCalendar.get(Calendar.HOUR_OF_DAY))
 
                     var currentTimeString:String = String.format("%s:%s:%s", hourString, minuteString, secondString)
-                    var digitalString:String = mPlanets.getValue(activePlanetWatchFace).getRelativeTime(mCalendar.get(Calendar.HOUR_OF_DAY), mCalendar.get(Calendar.MINUTE), mCalendar.get(Calendar.SECOND))
+                    //var digitalString:String = mPlanets.getValue(activePlanetWatchFace).getRelativeTime(mCalendar.get(Calendar.HOUR_OF_DAY), mCalendar.get(Calendar.MINUTE), mCalendar.get(Calendar.SECOND))
                     if(activePlanetWatchFace == "earth") {
                         canvas.drawBitmap(mPlanets.getValue(activePlanetWatchFace).wfBg[mCalendar.get(Calendar.SECOND)], 0f, 0f, mBackgroundPaint)
                     }else {
@@ -614,8 +614,8 @@ class MyWatchFace : CanvasWatchFaceService() {
 
                     }
                     canvas.drawText(activePlanetWatchFace.capitalize(), canvas.width/2.toFloat(), 60f, mTextPaint)
-                    canvas.drawText(digitalString, 195f, 195-10f, mTextPaint)
-                    canvas.drawText(currentTimeString, 195f, 195+40f, mTextPaint)
+                    //canvas.drawText(digitalString, 195f, 195+15f, mTextPaint)
+                    canvas.drawText(currentTimeString, 195f, 195+15f, mTextPaint)
                     //canvas.drawLine(0f, 195f, 390f, 195f, Paint(Color.RED))
 
                 }
