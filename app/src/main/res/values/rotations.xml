@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="rotations">
+        <item name="mercury">345.7</item>
+        <item name="venus">291.4</item>
+        <item name="earth">119.1</item>
+        <item name="mars">294.2</item>
+        <item name="jupiter">184.8</item>
+        <item name="saturn">161.8</item>
+        <item name="uranus">56.1</item>
+        <item name="neptune">103.1</item>
+    </array>
+</resources>
+
+<!--as of 20190826-->

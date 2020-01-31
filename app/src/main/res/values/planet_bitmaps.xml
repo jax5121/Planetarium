@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="planet_bitmaps">
+        <item name="mercury">@drawable/mercury</item>
+        <item name="venus">@drawable/venus</item>
+        <item name="earth">@drawable/earth</item>
+        <item name="mars">@drawable/mars</item>
+        <item name="jupiter">@drawable/jupiter</item>
+        <item name="saturn">@drawable/saturn</item>
+        <item name="uranus">@drawable/uranus</item>
+        <item name="neptune">@drawable/neptune</item>
+    </array>
+</resources>
