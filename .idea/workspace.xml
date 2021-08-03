@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2cb261db-dcc7-4f9c-8098-00b1d95f3cfa" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="TKQ7N18420000275" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\jax51\.android\avd\Watch_API_28.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -37,155 +41,42 @@
       </state>
     </system>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Planetarium" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/planetarium/MyWatchFace.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="584" column="31" lean-forward="true" selection-start-line="584" selection-start-column="31" selection-end-line="584" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/planetarium/Planet.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="79" column="88" selection-start-line="79" selection-start-column="88" selection-end-line="79" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/Sdk/Android/sources/android-28/android/content/ContextWrapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-              <folding>
-                <element signature="e#2841#2842#0" expanded="true" />
-                <element signature="e#2884#2885#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>base</find>
-      <find>Color</find>
-      <find>updateWatchHandStyle</find>
-      <find>mWatchHandColor</find>
-      <find>R.drawable.bg</find>
-      <find>R</find>
-      <find>bg</find>
-      <find>mWatchHandHighlightColor</find>
-      <find>app_name</find>
-      <find>message</find>
-      <find>sHourHandLength</find>
-      <find>green</find>
-      <find>mBackgroundBitmap</find>
-      <find>mBackgroundPaint</find>
-      <find>initializeBackground</find>
-      <find>blue</find>
-      <find>mGrayBackgroundBitmap</find>
-      <find>mPlanetTestBitmap</find>
-      <find>initial</find>
-      <find>images</find>
-      <find>initgra</find>
-      <find>corre</find>
-      <find>png</find>
-      <find>orrery</find>
-      <find>toast</find>
-      <find>mTextPaint</find>
-      <find>mLowBitAmbient</find>
-      <find>activePlanetWatchFace</find>
-      <find>mPlanets.getValue(activePlanetWatchFace).activeWatchFace</find>
-      <find>86400</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/values/positions.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/rotation.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/rotations.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/planet_bitmaps.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/planetarium/PlanetCalendar.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/planetarium/Planet.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/planetarium/MyWatchFace.kt" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-    </panes>
+  <component name="ProjectId" id="1t8E7kKRIWL4nvDdJ6P6Zqw7guh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DEBUGGABLE_DEVICE" value="huawei-leo_bx9-TKQ7N18420000275" />
     <property name="DEBUGGABLE_PROCESS" value="com.example.planetarium" />
     <property name="DEBUGGER_ID" value="Auto" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="TKQ7N18420000275" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-01-31T11:40:31.434Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@C:\Users\jax51\.android\avd\Watch_API_28.avd" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-07-18T14:16:59.103560Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="android.sdk.path" value="E:/Sdk/Android" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../Sdk/Android" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Default Config" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -196,12 +87,14 @@
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="app" />
+      <module name="Planetarium.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="do_nothing" />
@@ -210,8 +103,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
@@ -239,16 +130,22 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -262,84 +159,50 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Captures" order="0" sideWeight="0.50080776" side_tool="true" weight="0.2249467" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.48064515" weight="0.2249467" />
-      <window_info id="Structure" order="2" sideWeight="0.5193548" side_tool="true" weight="0.2249467" />
-      <window_info id="Favorites" order="3" sideWeight="0.50080776" side_tool="true" weight="0.2249467" />
-      <window_info id="Build Variants" order="4" sideWeight="0.50080776" side_tool="true" weight="0.2249467" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Designer" order="6" />
-      <window_info id="Resources Explorer" order="7" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49733475" weight="0.3281372" />
-      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49840087" weight="0.32936078" />
-      <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3281372" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50159913" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.49946696" visible="true" weight="0.25720966" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" sideWeight="0.4978678" weight="0.32936078" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" weight="0.32995737" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Assistant" order="5" weight="0.32995737" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Captures" order="0" sideWeight="0.50080776" side_tool="true" weight="0.2249467" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.48064515" visible="true" weight="0.2249467" />
-      <window_info id="Structure" order="2" sideWeight="0.5193548" side_tool="true" visible="true" weight="0.2249467" />
-      <window_info id="Favorites" order="3" sideWeight="0.50080776" side_tool="true" weight="0.2249467" />
-      <window_info id="Build Variants" order="4" sideWeight="0.50080776" side_tool="true" weight="0.2249467" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Designer" order="6" />
-      <window_info id="Resources Explorer" order="7" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49733475" weight="0.32827735" />
-      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49840087" weight="0.32936078" />
-      <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32827735" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50159913" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946696" weight="0.3434453" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" sideWeight="0.4978678" weight="0.32936078" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" weight="0.32995737" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Assistant" order="5" weight="0.32995737" />
-    </layout-to-restore>
+  <component name="WindowStateProjectService">
+    <state x="960" y="436" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1626616617487">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="960" y="436" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400/2560.0.1080.1920/-1920.185.1920.1080@0.0.2560.1400" timestamp="1626616617487" />
+    <state x="92" y="92" width="2376" height="1216" key="AVDManager" timestamp="1626618097823">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="AVDManager/0.0.2560.1400/2560.0.1080.1920/-1920.185.1920.1080@0.0.2560.1400" timestamp="1626618097823" />
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1622143677641">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="455" key="FileChooserDialogImpl/2560.0.1080.1880/-1920.185.1920.1080/0.0.2560.1400@0.0.2560.1400" timestamp="1622143677641" />
+    <state width="1258" height="358" key="GridCell.Tab.0.bottom" timestamp="1626618498062">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="358" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1080.1920/-1920.185.1920.1080@0.0.2560.1400" timestamp="1626618498062" />
+    <state width="2517" height="215" key="GridCell.Tab.0.bottom/2560.0.1080.1880/-1920.185.1920.1080/0.0.2560.1400@0.0.2560.1400" timestamp="1622158918061" />
+    <state width="1258" height="358" key="GridCell.Tab.0.center" timestamp="1626618498061">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="358" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1080.1920/-1920.185.1920.1080@0.0.2560.1400" timestamp="1626618498061" />
+    <state width="2517" height="215" key="GridCell.Tab.0.center/2560.0.1080.1880/-1920.185.1920.1080/0.0.2560.1400@0.0.2560.1400" timestamp="1622158918061" />
+    <state width="1258" height="358" key="GridCell.Tab.0.left" timestamp="1626618498061">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="358" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1080.1920/-1920.185.1920.1080@0.0.2560.1400" timestamp="1626618498061" />
+    <state width="2517" height="215" key="GridCell.Tab.0.left/2560.0.1080.1880/-1920.185.1920.1080/0.0.2560.1400@0.0.2560.1400" timestamp="1622158918061" />
+    <state width="1258" height="358" key="GridCell.Tab.0.right" timestamp="1626618498061">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="358" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1080.1920/-1920.185.1920.1080@0.0.2560.1400" timestamp="1626618498061" />
+    <state width="2517" height="215" key="GridCell.Tab.0.right/2560.0.1080.1880/-1920.185.1920.1080/0.0.2560.1400@0.0.2560.1400" timestamp="1622158918061" />
+    <state x="92" y="92" width="2376" height="1216" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1622143145179">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="com.android.tools.idea.avdmanager.AvdListDialog/2560.0.1080.1880/-1920.185.1920.1080/0.0.2560.1400@0.0.2560.1400" timestamp="1622143145179" />
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1626616590467">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1080.1920/-1920.185.1920.1080@0.0.2560.1400" timestamp="1626616590467" />
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/2560.0.1080.1880/-1920.185.1920.1080/0.0.2560.1400@0.0.2560.1400" timestamp="1622227962317" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/planetarium/Planet.kt</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Remote">
         <watch expression="195f - (mPlanetTestBitmap.width/2)" />
@@ -382,111 +245,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/bg.png" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/preview_analog.png" />
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/planetarium/BuildConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Sdk/Android/sources/android-28/android/graphics/Paint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="957" column="16" selection-start-line="957" selection-start-column="16" selection-end-line="957" selection-end-column="16" />
-          <folding>
-            <element signature="e#31791#31792#0" expanded="true" />
-            <element signature="e#31837#31838#0" expanded="true" />
-            <element signature="e#32539#32540#0" expanded="true" />
-            <element signature="e#32581#32582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Sdk/Android/sources/android-28/android/graphics/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="1636" column="7" lean-forward="true" selection-start-line="1636" selection-start-column="7" selection-end-line="1636" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/watch_face.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/rotations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/watchface_test_new_bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/watchface_test.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d09b1589abfa2f7624ed81fbc701a412/jetified-wearable-2.4.0/jars/classes.jar!/android/support/wearable/watchface/CanvasWatchFaceService.class" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d09b1589abfa2f7624ed81fbc701a412/jetified-wearable-2.4.0/jars/classes.jar!/android/support/wearable/watchface/WatchFaceService.class" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/planet_bitmaps.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/planetarium/PlanetCalendar.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/planetarium/MyWatchFace.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="584" column="31" lean-forward="true" selection-start-line="584" selection-start-column="31" selection-end-line="584" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/planetarium/Planet.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="79" column="88" selection-start-line="79" selection-start-column="88" selection-end-line="79" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Sdk/Android/sources/android-28/android/content/ContextWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding>
-            <element signature="e#2841#2842#0" expanded="true" />
-            <element signature="e#2884#2885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
   </component>
 </project>

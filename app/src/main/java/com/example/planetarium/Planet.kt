@@ -27,7 +27,7 @@ class Planet {
     var wfBitmap: Bitmap
     var wfBg: ArrayList<Bitmap> = ArrayList()
     var sf:Double
-
+    var wfMercMap: Bitmap
 
 
     constructor(rotation: Float, rotation_length: Double, revolution_length: Float, distance: Float, planetBitmap: Bitmap) {
@@ -57,6 +57,9 @@ class Planet {
         this.wfBitmap = Bitmap.createBitmap(390,390,Bitmap.Config.ARGB_8888)
         this.point = Point(0,0)
         getGlobalCoords()
+
+        //mercator map (empty for now, will become part of the constructor once working)
+        this.wfMercMap = Bitmap.createBitmap(390,780,Bitmap.Config.ARGB_8888)
     }
 
     //changes active colors

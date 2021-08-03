@@ -146,7 +146,7 @@ class MyWatchFace : CanvasWatchFaceService() {
             mBackgroundPaint = Paint().apply {
                 color = Color.BLACK
             }
-            mBackgroundBitmap = BitmapFactory.decodeResource(resources, R.drawable.watchface_test)
+            mBackgroundBitmap = BitmapFactory.decodeResource(resources, R.drawable.watchface_test_working)
 
             /* Extracts colors from background image to improve watchface style. */
             Palette.from(mBackgroundBitmap).generate {
@@ -169,6 +169,7 @@ class MyWatchFace : CanvasWatchFaceService() {
         //private val NAMES = ArrayList<String>()
         private fun initializePlanets() {
 
+            // map jewels
             var mercuryBitmap = BitmapFactory.decodeResource(resources, R.drawable.mercury)
             var venusBitmap = BitmapFactory.decodeResource(resources, R.drawable.venus)
             var earthBitmap = BitmapFactory.decodeResource(resources, R.drawable.earth)
@@ -178,17 +179,30 @@ class MyWatchFace : CanvasWatchFaceService() {
             var uranusBitmap = BitmapFactory.decodeResource(resources, R.drawable.uranus)
             var neptuneBitmap = BitmapFactory.decodeResource(resources, R.drawable.neptune)
 
+            //mercator map
+            var earthMercBitmap = BitmapFactory.decodeResource(resources, R.drawable.earth_map)
+            
 
             mPlanets = mapOf(
-                "mercury" to Planet(99.7f, 1407.6, 88f, 0.12f, mercuryBitmap),
+                /*"mercury" to Planet(99.7f, 1407.6, 88f, 0.12f, mercuryBitmap),
                 "venus" to Planet(45.4f, 5832.5, 224.7f, 0.2f, venusBitmap),
                 "earth" to Planet(233.1f, 24.0, 365.2f, 0.28f, earthBitmap),
                 "mars" to Planet(48.2f, 24.6, 687f, 0.36f, marsBitmap),
                 "jupiter" to Planet(298.8f, 9.9, 4331f, 0.45f, jupiterBitmap),
                 "saturn" to Planet(275.8f, 10.7, 10747f, 0.56f, saturnBitmap),
                 "uranus" to Planet(170.1f, 17.2, 30589f, 0.66f, uranusBitmap),
-                "neptune" to Planet(217.1f, 16.1, 59800f, 0.76f, neptuneBitmap)
+                "neptune" to Planet(217.1f, 16.1, 59800f, 0.76f, neptuneBitmap)*/
+                "mercury" to Planet(260.3f, 1407.6, 88f, 0.12f, mercuryBitmap),
+                "venus" to Planet(314.6f, 5832.5, 224.7f, 0.2f, venusBitmap),
+                "earth" to Planet(126.9f, 24.0, 365.2f, 0.28f, earthBitmap),
+                "mars" to Planet(311.8f, 24.6, 687f, 0.36f, marsBitmap),
+                "jupiter" to Planet(61.2f, 9.9, 4331f, 0.45f, jupiterBitmap),
+                "saturn" to Planet(84.2f, 10.7, 10747f, 0.56f, saturnBitmap),
+                "uranus" to Planet(189.9f, 17.2, 30589f, 0.66f, uranusBitmap),
+                "neptune" to Planet(142.9f, 16.1, 59800f, 0.76f, neptuneBitmap)
             )
+
+            //watch faces
 
             //for (p in mPlanets) {
                 var i:Int = 0
@@ -213,9 +227,12 @@ class MyWatchFace : CanvasWatchFaceService() {
             mPlanets.getValue("uranus").wfBitmap = BitmapFactory.decodeResource(resources, R.drawable.uranus_wf)
             mPlanets.getValue("neptune").wfBitmap = BitmapFactory.decodeResource(resources, R.drawable.neptune_wf)
 
+            //merc map
+            mPlanets.getValue("earth").wfMercMap = earthMercBitmap
+
             val offset = getOffset()
             for (p in mPlanets) {
-                p.value.rotation += offset * p.value.revAngle
+                p.value.rotation += offset * p.value.revAngle + 102f // added 102 after mirroring initial positions, will reset positions at later date
             }
         }
 
@@ -452,10 +469,7 @@ class MyWatchFace : CanvasWatchFaceService() {
                 }
                 WatchFaceService.TAP_TYPE_TAP -> {
                     // The user has completed the tap gesture.
-                    // TODO: Add code to handle the tap gesture.
-                    //Toast.makeText(applicationContext, R.string.message, Toast.LENGTH_SHORT).show()
                     //if no active watchface, check if planet is requested
-                    //activePlanetWatchFace = ""
                     if(activePlanetWatchFace == "") {
                         for (p in mPlanets) {
                             p.value.getGlobalCoords()
@@ -608,7 +622,8 @@ class MyWatchFace : CanvasWatchFaceService() {
                     var currentTimeString:String = String.format("%s:%s:%s", hourString, minuteString, secondString)
                     //var digitalString:String = mPlanets.getValue(activePlanetWatchFace).getRelativeTime(mCalendar.get(Calendar.HOUR_OF_DAY), mCalendar.get(Calendar.MINUTE), mCalendar.get(Calendar.SECOND))
                     if(activePlanetWatchFace == "earth") {
-                        canvas.drawBitmap(mPlanets.getValue(activePlanetWatchFace).wfBg[mCalendar.get(Calendar.SECOND)], 0f, 0f, mBackgroundPaint)
+                        //canvas.drawBitmap(mPlanets.getValue(activePlanetWatchFace).wfBg[mCalendar.get(Calendar.SECOND)], 0f, 0f, mBackgroundPaint)
+                        canvas.drawBitmap(mPlanets.getValue(activePlanetWatchFace).wfMercMap,0f,0f,mBackgroundPaint)
                     }else {
                         canvas.drawBitmap(mPlanets.getValue(activePlanetWatchFace).wfBitmap, 0f,0f,mBackgroundPaint)
 
